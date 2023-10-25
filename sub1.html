@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>투자정보 | 풀무원</title>
+<link rel="shortcut icon" href="./img/faviconV2.png" />
+<link rel="stylesheet" href="./css/sub1.css">
+<script defer src="./js/sub1.js"></script>
+</head>
+<body>
+<!-- wrap -->
+<div id="wrap">
+  <!-- 태블릿, 모바일 햄버거버튼 눌렀을 때 보이는 부분 -->
+  <div class="bg"></div>
+  <!-- tablet,mobile -->
+  <div class="hamBtn"><a href="#"><img src="./img/ham_btn_open.png" alt="메뉴 전체보기 열기" width="22"></a></div>
+  <div class="m_search"><a href="#"><img src="img/m_search_con.png" alt="검색창 열기" width="22"></a></div>
+  <form action="#" method="get" class="m_search_box">
+    <fieldset>
+      <legend class="blind">검색하기</legend>
+      <label for="srch" class="blind">검색하기</label>
+      <input type="search" id="srch" placeholder="바른먹거리"><button type="submit">검색</button>
+    </fieldset>
+  </form>
+  <!-- 태블릿, 모바일 메뉴 -->
+  <div class="ham">
+    <div class="ham_up">
+      <div class="hamBtn_close"><a href="#"><img src="img/ham_btn_close.png" alt="메뉴 전체보기 닫기" width="16.5px"></a></div>
+      <!-- 언어 설정 -->
+      <div class="ham_nation">
+        <select id="nation" title="언어선택하기">
+          <option value="kor">KOR</option>
+          <option value="eng">ENG</option>
+          <option value="ch">CHN</option>
+          <option value="jp">JPN</option>
+        </select>
+      </div>
+      <!-- //언어 설정 -->
+      
+      <!-- 태블릿, 모바일 탑메뉴 -->
+      <h2 class="blind"> 인재채용, 고객기쁨센터, #풀무원 </h2>
+      <dl class="ham_topMenu">
+        <dt class="blind"> 탑메뉴</dt>
+        <dd><a href="#">인재채용</a></dd>
+        <dd><a href="#">고객기쁨센터</a></dd>
+        <dd><a href="#"> #풀무원</a></dd>
+      </dl>
+      <!-- //태블릿, 모바일 탑메뉴 -->
+    </div>
+    <!-- 태블릿, 모바일 주메뉴 -->
+    <nav class="ham_gnb">
+      <h2 class="blind">주메뉴</h2>
+      <ul>
+        <li><a href="#">회사소개</a>
+          <ul>
+            <li><a href="#">총괄CEO인사말</a></li>
+            <li><a href="#">CI소개</a></li>
+            <li><a href="#">연혁</a></li>
+            <li><a href="#">가치체계</a></li>
+            <li><a href="#">사업소개</a></li>
+            <li><a href="#">동반성장</a></li>
+            <li><a href="#">기업지배구조</a></li>
+            <li><a href="#">투자정보</a></li>
+          </ul>
+        </li>
+        <li><a href="#">사회책임경영</a>
+          <ul>
+            <li><a href="#">개요</a></li>
+            <li><a href="#">추진전략</a></li>
+            <li><a href="#">활동 및 실적</a></li>
+            <li><a href="#">수상</a></li>
+          </ul>
+        </li>
+        <li><a href="#">바른먹거리</a>
+          <ul>
+            <li><a href="#">지속가능 식생활</a></li>
+            <li><a href="#">지속가능식품</a></li>
+            <li><a href="#">바른먹거리 원칙</a></li>
+            <li><a href="#">바른먹거리 캠페인</a></li>
+            <li><a href="#">풀무원 지구식단</a></li>
+          </ul>
+        </li>
+        <li><a href="#">뉴스룸</a>
+          <ul>
+            <li><a href="#">풀무원 뉴스</a></li>
+            <li><a href="#">ESG경영</a></li>
+            <li><a href="#">멀티미디어</a></li>
+            <li><a href="#">자료 &amp; 공지</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <!-- //태블릿, 모바일 주메뉴 -->
+    <!-- 태블릿, 모바일 이벤트메뉴 -->
+    <dl class="ham_eventMenu">
+      <dt class="blind">이벤트메뉴</dt>
+      <dd><a href="#">뮤지엄김치간</a></dd>
+      <dd><a href="#">올가 오늘만 이 가격</a></dd>
+      <dd><a href="#">이벤트 더보기</a></dd>
+    </dl>
+    <!-- //태블릿, 모바일 이벤트메뉴 -->
+  </div>
+  <!-- //태블릿, 모바일 메뉴 -->  
+
+  <!-- header -->
+  <header id="header">
+    <!--header_wrap-->
+    <div class="header_wrap">
+      <!-- header_inner -->
+      <div class="header_inner">
+        <!-- 로고 -->
+        <h1 class="logo"><a href="index.html"><img src="./img/logo.png" alt="풀무원 로고"></a></h1>
+        <!-- 탑메뉴 -->
+        <h2 class="blind"> 인재채용, 고객기쁨센터, #풀무원 </h2>
+        <dl class="topMenu">
+          <dt class="blind"> 탑메뉴</dt>
+          <dd><a href="#">인재채용</a></dd>
+          <dd><a href="#">고객기쁨센터</a></dd>
+          <dd><a href="#"> #풀무원</a></dd>
+        </dl>
+        <!-- //탑메뉴 -->
+        <!-- 주메뉴 -->
+        <nav class="gnb">
+          <h2 class="blind">주메뉴</h2>
+          <ul>
+            <li><a href="./sub1.html">회사소개</a>
+              <ul>
+                <li><a href="./sub1.html">총괄CEO인사말</a></li>
+                <li><a href="./sub2.html">CI소개</a></li>
+                <li><a href="./sub1.html">연혁</a></li>
+                <li><a href="./sub2.html">가치체계</a></li>
+                <li><a href="./sub2.html">사업소개</a></li>
+                <li><a href="./sub2.html">동반성장</a></li>
+                <li><a href="./sub2.html">기업지배구조</a></li>
+                <li><a href="./sub1.html">투자정보</a></li>
+              </ul>
+            </li>
+            <li><a href="./sub2.html">사회책임경영</a>
+              <ul>
+                <li><a href="#">개요</a></li>
+                <li><a href="#">추진전략</a></li>
+                <li><a href="#">활동 및 실적</a></li>
+                <li><a href="#">수상</a></li>
+              </ul>
+            </li>
+            <li><a href="./sub1.html">바른먹거리</a>
+              <ul>
+                <li><a href="#">지속가능 식생활</a></li>
+                <li><a href="#">지속가능식품</a></li>
+                <li><a href="#">바른먹거리 원칙</a></li>
+                <li><a href="#">바른먹거리 캠페인</a></li>
+                <li><a href="#">풀무원 지구식단</a></li>
+              </ul>
+            </li>
+            <li><a href="./sub2.html">뉴스룸</a>
+              <ul>
+                <li><a href="#">풀무원 뉴스</a></li>
+                <li><a href="#">ESG경영</a></li>
+                <li><a href="#">멀티미디어</a></li>
+                <li><a href="#">자료 &amp; 공지</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <!-- //주메뉴 -->
+        <!-- 검색박스 -->
+        <form class="srch" action="#" method="get">
+          <dl>
+            <dt class="blind"><label for="srch">검색어입력</label></dt>
+            <dd class="srch_open"><input type="search" id="srch" title="검색어를 입력하세요" /></dd>
+            <dd><a href="#" title="검색입력서식열기"> 검색입력서식열기</a></dd>
+          </dl>
+        </form>
+        <!-- //검색박스 -->
+        <!-- 언어 설정 -->
+        <div class="nation">
+          <select id="nation" title="언어선택하기">
+            <option value="kor">KOR</option>
+            <option value="eng">ENG</option>
+            <option value="ch">CHN</option>
+            <option value="jp">JPN</option>
+          </select>
+        </div>
+        <!-- //언어 설정 -->
+      </div> 
+      <!-- //header_inner -->
+    </div>
+    <!-- //header_wrap -->
+  </header>
+  <!-- //header -->
+  <!-- sub_header -->
+  <div class="sub_header">
+    <ul>
+      <!--집아이콘-->
+      <li><a href="index.html">풀무원 메인 바로가기</a></li>
+      <li><a href="#">회사소개</a>
+        <ul>
+          <li><a href="#">회사소개</a></li>
+          <li><a href="#">사회책임경영</a></li>
+          <li><a href="#">바른먹거리</a></li>
+          <li><a href="#">뉴스룸</a></li>
+        </ul>
+      </li>
+      <li><a href="#" title="투자정보 바로가기">투자정보</a>
+        <ul>
+          <li><a href="#">총괄CEO인사말</a></li>
+          <li><a href="#">CI소개</a></li>
+          <li><a href="#">연혁</a></li>
+          <li><a href="#">가치체계</a></li>
+          <li><a href="#">사업소개</a></li>
+          <li><a href="#">동반성장</a></li>
+          <li><a href="#">기업지배구조</a></li>
+          <li><a href="#">투자정보</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <!-- //sub_header -->
+  <!-- container -->
+  <main id="container">
+    <!-- spot_visual -->
+    <div class="spot_visual">
+    </div>
+    <!-- //spot_visual -->
+    <!-- spot -->
+    <div class="spot">
+      <h2>투자정보</h2>
+      <p>풀무원의 <span>경영정보, 재무정보, 주식정보, 전자공고</span> 등을 <br/> 한 눈에 확인할 수 있습니다.</p>
+    </div>
+    <!-- //spot -->
+    <hr />
+    <ul class="spot_banner">
+      <li><a href="#">경영정보</a></li>
+      <li><a href="#">재무정보</a></li>
+      <li><a href="#">주식정보</a></li>
+      <li class="on"><a href="#">데이터</a></li>
+      <li><a href="#">주주총회</a></li>
+      <li><a href="#">주주제안</a></li>
+      <li><a href="#">공시자료</a></li>
+      <li><a href="#">전자공고</a></li>
+    </ul>
+    <ul class="m_spot_banner">
+      <li><a href="sub1.html">데이터</a>
+        <ul>
+          <li><a href="#">경영정보</a></li>
+          <li><a href="#">재무정보</a></li>
+          <li><a href="#">주식정보</a></li>
+          <li><a href="#">주주총회</a></li>
+          <li><a href="#">주주제안</a></li>
+          <li><a href="#">공시자료</a></li>
+          <li><a href="#">전자공고</a></li>
+        </ul>
+      </li>
+    </ul>
+    <hr />
+    <!-- investment -->
+    <div class="investment">
+      <ul>
+        <li class="on"><a href="#">재무데이터</a></li>
+        <li><a href="#">비재무데이터</a></li>
+      </ul>
+      <div class="investment_title">
+        <h3>연결 재무실적</h3>
+        <p>한국채택국제회계기준(K_IFRS) 연결재무제표 기준으로 2020년 풀무원은<span> 매출 2조 3,112억원,<br />
+        영업이익 460억원</span>의 실적을 달성하였습니다.</p>
+      </div>     
+      <!-- finance -->
+      <article class="finance">
+        <h4>재무상태표</h4>
+        <span class="finance_txt">단위:억원</span>
+        <div>
+          <table class="finance_table">
+            <caption class="blind">재무상태표</caption>
+            <thead>
+              <tr class="row1">
+                <th rowspan="2" scope="col">구분</th>
+                <th rowspan="2" scope="col">2020년</th>
+                <th rowspan="2" scope="col">2021년</th>
+                <th rowspan="2" scope="col">2022년</th>
+                <th colspan="2" >2021년 대비증감</th>
+              </tr>
+              <tr class="row2">
+                <th row="2" scope="col">금액</th>
+                <th row="2" scope="col">비율(%)</th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                <td>자산총계</td>
+                <td>16,936</td>
+                <td>19,694</td>
+                <td>20,492</td>
+                <td class="up">798</td>
+                <td>4.1%</td>
+              </tr>
+              <tr>
+                <td>부계총계</td>
+                <td>11,807</td>
+                <td>13,796</td>
+                <td>15,026</td>
+                <td class="up">1,230</td>
+                <td>8,9%</td>
+              </tr>
+              <tr>
+                <td>자본총계</td>
+                <td>5,129</td>
+                <td>5,898</td>
+                <td>5,466</td>
+                <td class="down">-432</td>
+                <td>-7.3%</td>
+              </tr>
+            </tfoot>
+            <tbody>
+              <tr>
+                <td>유동자산</td>
+                <td>6,304</td>
+                <td>7,110</td>
+                <td>7,523</td>
+                <td class="up">413</td>
+                <td>5.8%</td>
+              </tr>
+              <tr>
+                <td>비유동자산</td>
+                <td>10,632</td>
+                <td>12,584</td>
+                <td>12,969</td>
+                <td class="up">385</td>
+                <td>3.1%</td>
+              </tr>
+              <tr>
+                <td>유동부채</td>
+                <td>7,769</td>
+                <td>8,038</td>
+                <td>8,927</td>
+                <td class="up">889</td>
+                <td>11,1%</td>
+              </tr>
+              <tr>
+                <td>비유동부채</td>
+                <td>4,038</td>
+                <td>5,757</td>
+                <td>6,099</td>
+                <td class="up">342</td>
+                <td>5,9%</td>
+              </tr>
+              <tr>
+                <td>재배기업의 소유주</td>
+                <td>4,501</td>
+                <td>4,666</td>
+                <td>4,122</td>
+                <td class="down">-544</td>
+                <td>-11.7%</td>
+              </tr>
+              <tr>
+                <td>비지배지분</td>
+                <td>628</td>
+                <td>1,232</td>
+                <td>1,344</td>
+                <td class="up">112</td>
+                <td>9.1%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+      <!-- //finance -->
+      <hr />
+      <!-- stock -->
+      <article class="stock">
+        <h4>주식정보</h4>
+        <div>
+          <table class="stock_table">
+            <caption class="blind">주식정보</caption>
+            <thead>
+              <th scope="col">구분</th>
+              <th scope="col">단위</th>
+              <th scope="col">2020년</th>
+              <th scope="col">2021년</th>
+              <th scope="col">2022년</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>액면가</td>
+                <td>원</td>
+                <td>500</td>
+                <td>500</td>
+                <td>500</td>
+              </tr>
+              <tr>
+                <td>발행주식총수</td>
+                <td>주</td>
+                <td>42,155,119</td>
+                <td>42,155,122</td>
+                <td>42,155,122</td>
+              </tr>
+              <!--border-top + background:gray-->
+              <tr class="line">
+                <td>주가</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>-최고가</td>
+                <td>원</td>
+                <td>20,950</td>
+                <td>23,000</td>
+                <td>18,600</td>
+              </tr>
+              <tr>
+                <td>-최저가</td>
+                <td>원</td>
+                <td>15,100</td>
+                <td>16,000</td>
+                <td>10,050</td>
+              </tr>
+              <tr>
+                <td>-종가</td>
+                <td>원</td>
+                <td>16,550</td>
+                <td>17,300</td>
+                <td>11,200</td>
+              </tr>
+              <!--border-top-->
+              <tr class="line">
+                <td>외국인 지분율</td>
+                <td>%</td>
+                <td>0.81</td>
+                <td>1.06</td>
+                <td>0.92</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+      <!-- //stock -->
+    </div>
+    <!-- //investment -->
+  </main>
+  <!-- //container -->
+  <!-- footer -->
+  <footer id="footer">
+    <section class="footer">
+      <!-- footer_inner -->
+      <div class="footer_inner">
+        <div class="footer_logo"></div>
+        <ul>
+          <li><a href="#"><span>개인정보처리방침</span></a></li>
+          <li><a href="#">이메일주소 무단수집 거부</a></li>
+          <li><a href="#">사이버감사실</a></li>
+          <li><a href="#">공장견학</a></li>
+          <li><a href="#">풀무원채용</a></li>
+        </ul>
+
+        <address>
+          <span>법인명 : (주)풀무원</span>
+          <span>서울시 강남구 광평로 280 로즈데일빌딩</span>
+          <span>대표전화 : 080-022-0085</span>
+        </address>
+
+        <p>Copyright ⓒ Pulmuone Corporate All Rights Reserved.</p>
+        <div class="sns_box">
+          <ul>
+            <li class="f_txt">공식계정</li>
+            <li><a href="#" target="_blank" title="새 창으로 바로가기">페이스북 바로가기</a></li>
+            <li><a href="#" target="_blank" title="새 창으로 바로가기">티스토리 블로그 바로가기</a></li>
+            <li><a href="#" target="_blank" title="새 창으로 바로가기">트위터 바로가기</a></li>
+            <li><a href="#" target="_blank" title="새 창으로 바로가기">유튜브 바로가기</a></li>
+            <li><a href="#" target="_blank" title="새 창으로 바로가기">인스타그램 바로가기</a></li>
+            <li><a href="#" target="_blank" title="새 창으로 바로가기">네이버포스트 바로가기</a></li>
+          </ul>
+        </div>
+        <div class="family_box">
+          <a href="#" title="풀무원 계열사/브랜드 바로가기">계열사/브랜드사이트</a>
+          <ul>
+            <li>풀무원
+              <ul>
+                <li><a href="#">뮤지엄김치간</a></li>
+                <li><a href="#">#풀무원</a></li>
+                <li><a href="#">풀무원채용</a></li>
+                <li><a href="#">efresh 모니터</a></li>
+                <li><a href="#">풀무원재단</a></li>
+              </ul>
+            </li>
+            <li>계열사
+              <ul>
+                <li><a href="#">풀무원녹즙</a></li>
+                <li><a href="#">풀무원푸드머스</a></li>
+                <li><a href="#">풀무원푸드앤컬처</a></li>
+                <li><a href="#">풀무원샘물</a></li>
+                <li><a href="#">Pulmuone Foods USA</a></li>
+                <li><a href="#">풀무원건강생활</a></li>
+                <li><a href="#">아사히코</a></li>
+                <li><a href="#">푸메이뚜어</a></li>
+              </ul>
+            </li>
+            <li>브랜드
+              <ul>
+                <li><a href="#">풀무원아미오</a></li>
+                <li><a href="#">디자인밀</a></li>
+                <li><a href="#">풀무원로하스</a></li>
+                <li><a href="#">Montereygourmetfoods</a></li>
+                <li><a href="#">WILDWOOD</a></li>
+                <li><a href="#">Nasoya Foods USA</a></li>
+                <li><a href="#">출출박스</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- //family_box -->
+      </div>
+      <!-- //footer_inner -->
+      <a class="btn_top">TOP</a>
+    </section>  
+  </footer>
+  <!-- //footer -->
+</div>
+<!-- //wrap -->
+</body>
+</html>

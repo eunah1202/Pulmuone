@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>풀무원</title>
+<link rel="shortcut icon" href="./img/faviconV2.png" />
+<link rel="stylesheet" href="./css/main.css">
+<script defer src="./js/main.js"></script>
+</head>
+<body>
+<!-- skipNavi -->
+<div id="skipNavi"><a href="#container"> 본문 바로가기 </a></div>
+<!-- //skipNavi -->
+<hr />
+<!-- wrap -->
+<div id="wrap">
+  <!-- 태블릿, 모바일 햄버거버튼 눌렀을 때 보이는 부분 -->
+  <div class="bg"></div>
+  <!-- tablet,mobile -->
+  <div class="hamBtn"><a href="#"><img src="./img/ham_btn_open.png" alt="메뉴 전체보기 열기" width="22"></a></div>
+  <div class="m_search"><a href="#"><img src="img/m_search_con.png" alt="검색창 열기" width="22"></a></div>
+  <form action="#" method="get" class="m_search_box">
+    <fieldset>
+      <legend class="blind">검색하기</legend>
+      <label for="search" class="blind">검색하기</label>
+      <input type="search" id="search" placeholder="바른먹거리"><button type="submit">검색</button>
+    </fieldset>
+  </form>
+  <!-- 태블릿, 모바일 메뉴 -->
+  <div class="ham">
+    <div class="ham_up">
+      <div class="hamBtn_close"><a href="#"><img src="img/ham_btn_close.png" alt="메뉴 전체보기 닫기" width="16.5px"></a></div>
+      <!-- 언어 설정 -->
+      <div class="ham_nation">
+        <select id="ham_nation" title="언어선택하기">
+          <option value="kor">KOR</option>
+          <option value="eng">ENG</option>
+          <option value="ch">CHN</option>
+          <option value="jp">JPN</option>
+        </select>
+      </div>
+      <!-- //언어 설정 -->
+      
+      <!-- 태블릿, 모바일 탑메뉴 -->
+      <h2 class="blind"> 인재채용, 고객기쁨센터, #풀무원 </h2>
+      <dl class="ham_topMenu">
+        <dt class="blind"> 탑메뉴</dt>
+        <dd><a href="#">인재채용</a></dd>
+        <dd><a href="#">고객기쁨센터</a></dd>
+        <dd><a href="#"> #풀무원</a></dd>
+      </dl>
+      <!-- //태블릿, 모바일 탑메뉴 -->
+    </div>
+    <!-- 태블릿, 모바일 주메뉴 -->
+    <nav class="ham_gnb">
+      <h2 class="blind">주메뉴</h2>
+      <ul>
+        <li><a href="#">회사소개</a>
+          <ul>
+            <li><a href="#">총괄CEO인사말</a></li>
+            <li><a href="#">CI소개</a></li>
+            <li><a href="#">연혁</a></li>
+            <li><a href="#">가치체계</a></li>
+            <li><a href="#">사업소개</a></li>
+            <li><a href="#">동반성장</a></li>
+            <li><a href="#">기업지배구조</a></li>
+            <li><a href="#">투자정보</a></li>
+          </ul>
+        </li>
+        <li><a href="#">사회책임경영</a>
+          <ul>
+            <li><a href="#">개요</a></li>
+            <li><a href="#">추진전략</a></li>
+            <li><a href="#">활동 및 실적</a></li>
+            <li><a href="#">수상</a></li>
+          </ul>
+        </li>
+        <li><a href="#">바른먹거리</a>
+          <ul>
+            <li><a href="#">지속가능 식생활</a></li>
+            <li><a href="#">지속가능식품</a></li>
+            <li><a href="#">바른먹거리 원칙</a></li>
+            <li><a href="#">바른먹거리 캠페인</a></li>
+            <li><a href="#">풀무원 지구식단</a></li>
+          </ul>
+        </li>
+        <li><a href="#">뉴스룸</a>
+          <ul>
+            <li><a href="#">풀무원 뉴스</a></li>
+            <li><a href="#">ESG경영</a></li>
+            <li><a href="#">멀티미디어</a></li>
+            <li><a href="#">자료 &amp; 공지</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <!-- //태블릿, 모바일 주메뉴 -->
+    <!-- 태블릿, 모바일 이벤트메뉴 -->
+    <dl class="ham_eventMenu">
+      <dt class="blind">이벤트메뉴</dt>
+      <dd><a href="#">뮤지엄김치간</a></dd>
+      <dd><a href="#">올가 오늘만 이 가격</a></dd>
+      <dd><a href="#">이벤트 더보기</a></dd>
+    </dl>
+    <!-- //태블릿, 모바일 이벤트메뉴 -->
+  </div>
+  <!-- //태블릿, 모바일 메뉴 -->
+
+  <!-- header -->
+  <header id="header">
+    <!--header_wrap-->
+    <div class="header_wrap">
+      <!-- header_inner -->
+      <div class="header_inner">
+        <!-- 로고 -->
+        <h1 class="logo"><a href="index.html"><img src="./img/logo.png" alt="풀무원 로고"></a></h1>
+        <!-- 탑메뉴 -->
+        <h2 class="blind"> 인재채용, 고객기쁨센터, #풀무원 </h2>
+        <dl class="topMenu">
+          <dt class="blind"> 탑메뉴</dt>
+          <dd><a href="#">인재채용</a></dd>
+          <dd><a href="#">고객기쁨센터</a></dd>
+          <dd><a href="#"> #풀무원</a></dd>
+        </dl>
+        <!-- //탑메뉴 -->
+        <!-- 주메뉴 -->
+        <nav class="gnb">
+          <h2 class="blind">주메뉴</h2>
+          <ul>
+            <li><a href="./sub1.html">회사소개</a>
+              <ul>
+                <li><a href="./sub1.html">총괄CEO인사말</a></li>
+                <li><a href="./sub2.html">CI소개</a></li>
+                <li><a href="#">연혁</a></li>
+                <li><a href="#">가치체계</a></li>
+                <li><a href="#">사업소개</a></li>
+                <li><a href="#">동반성장</a></li>
+                <li><a href="#">기업지배구조</a></li>
+                <li><a href="#">투자정보</a></li>
+              </ul>
+            </li>
+            <li><a href="./sub2.html">사회책임경영</a>
+              <ul>
+                <li><a href="./sub1.html">개요</a></li>
+                <li><a href="./sub2.html">추진전략</a></li>
+                <li><a href="#">활동 및 실적</a></li>
+                <li><a href="#">수상</a></li>
+              </ul>
+            </li>
+            <li><a href="./sub1.html">바른먹거리</a>
+              <ul>
+                <li><a href="./sub1.html">지속가능 식생활</a></li>
+                <li><a href="./sub2.html">지속가능식품</a></li>
+                <li><a href="#">바른먹거리 원칙</a></li>
+                <li><a href="#">바른먹거리 캠페인</a></li>
+                <li><a href="#">풀무원 지구식단</a></li>
+              </ul>
+            </li>
+            <li><a href="./sub2.html">뉴스룸</a>
+              <ul>
+                <li><a href="./sub1.html">풀무원 뉴스</a></li>
+                <li><a href="./sub2.html">ESG경영</a></li>
+                <li><a href="#">멀티미디어</a></li>
+                <li><a href="#">자료 &amp; 공지</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <!-- //주메뉴 -->
+        <!-- 검색박스 -->
+        <form class="srch" action="#" method="get">
+          <dl>
+            <dt class="blind"><label for="srch">검색어입력</label></dt>
+            <dd class="srch_open"><input type="search" id="srch" title="검색어를 입력하세요" /></dd>
+            <dd><a href="#" title="검색입력서식열기"> 검색입력서식열기</a></dd>
+          </dl>
+        </form>
+        <!-- //검색박스 -->
+        <!-- 언어 설정 -->
+        <div class="nation">
+          <select id="nation" title="언어선택하기">
+            <option value="kor">KOR</option>
+            <option value="eng">ENG</option>
+            <option value="ch">CHN</option>
+            <option value="jp">JPN</option>
+          </select>
+        </div>
+        <!-- //언어 설정 -->
+      </div> 
+      <!-- //header_inner -->
+    </div>
+    <!-- //header_wrap -->
+  </header>
+  <!-- //header -->
+  <!--container -->
+  <main id="container">
+    <!-- content1 -->
+    <div class="section content1">
+      <section class="main_pulmuone">
+        <h2 class="blind">메인 배너</h2>
+        <ul class="slide_wrap">
+          <div class="m_main_txt">
+            <span>건강에 좋은 것이 환경에도 좋습니다</span>
+            <span>사람과 자연을 함께 사랑하는 풀무원이 권하는 <br />지혜로운 라이프 스타일, </span>
+            <span>‘로하스(LOHAS)’</span>
+          </div>
+          <div class="m_main_img">
+            <ul>
+              <li>
+                <dl>
+                  <dt><a href="#"><img src="./img/s01_list_icon_1.png" alt="회사소개 페이지로 이동"></a></dt>
+                  <dd><a href="#">회사소개</a></dd>
+                </dl>
+              </li>
+              <li>
+                <dl>
+                  <dt><a href="#"><img src="./img/s01_list_icon_3.png" alt="바른먹거리 페이지로 이동"></a></dt>
+                  <dd><a href="#">바른먹거리</a></dd>
+                </dl>
+              </li>
+              <li>
+                <dl>
+                  <dt><a href="#"><img src="./img/s01_list_icon_2.png" alt="사회책임경영 페이지로 이동"></a></dt>
+                  <dd><a href="#">사회책임경영</a></dd>
+                </dl>
+              </li>
+              <li>
+                <dl>
+                  <dt><a href="#"><img src="./img/main_sec01_img3.png" alt="뉴스룸 페이지로 이동"></a></dt>
+                  <dd><a href="#">뉴스룸</a></dd>
+                </dl>
+              </li>
+            </ul>
+          </div>
+          <li class="slide active">
+            <video autoplay loop muted poster="./img/brand_us_thum.jpg">
+              <source src="./video/brand_us.mp4" type="video/mp4">
+              <track kind="captions" label="바른먹거리로 사람과 지구의 건강한 내일을 만드는 기업 동영상">
+            </video>
+            <p>바른먹거리로 사람과 지구의 <br /><span>건강한내일</span>을 만드는 기업</p>
+          </li>
+          <li class="slide">
+            <video autoplay loop muted poster="./img/right_food_thum.jpg">
+              <source src="./video/right_food.mp4" type="video/mp4">
+              <track kind="captions" label="내 가족의 건강과 행복을 위한 바른먹거리 동영상">
+            </video>
+            <p>내 가족의 건강과 행복을 위한 <span>바른먹거리</span></p>
+          </li>
+          <li class="slide">
+            <video autoplay loop muted poster="./img/csr_thum.jpg">
+              <source src="./video/csr.mp4" type="video/mp4">
+              <track kind="captions" label="공유가치를 창출함으로써 지속가능한 성장 도모 동영상">
+            </video>
+            <p>공유가치를 창출함으로써 <span>지속가능한 성장</span> 도모</p>
+          </li>
+          <li class="slide">
+            <video autoplay loop muted poster="./img/news_room_thum.jpg">
+              <source src="./video/news_room.mp4" type="video/mp4">
+              <track kind="captions" label="풀무원, AI고객경험 분석시스템 정착으로 디지털 전환 동영상">
+            </video>
+            <p> 풀무원, AI 고객 경험 분석 시스템 정착으로<span>디지털 전환</span></p>
+          </li>
+        </ul>
+        <div class="slide_arr">
+          <a href="#" class="btn_prev">이전 슬라이드</a>
+          <a href="#" class="btn_next">다음 슬라이드</a>
+        </div>
+        <div class="slide_roll">
+          <a href="#" class="btn_play"> 재생/멈춤</a>
+          <ul>
+            <li class="on"><a href="#">1번 슬라이드로 이동</a></li>
+            <li><a href="#">2번 슬라이드로 이동</a></li>
+            <li><a href="#">3번 슬라이드로 이동</a></li>
+            <li><a href="#">4번 슬라이드로 이동</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>  
+    <!-- //content1; 메인풀무원 -->
+    <!-- content2; 바른먹거리-->
+    <div class="section content2">
+      <section class="right_food">
+        <div class="right_food_inner">
+          <h2>바른먹거리</h2>
+          <p>나와 내 가족의 건강, 더 나아가 지구환경의 건강까지 두루 살핍니다.</p>
+          <ul>
+            <li>
+              <a href="#">
+                <div class="icon">
+                  <ul>
+                    <li>바른먹거리</li>
+                    <li>내 가족의 건강과 행복을 위한 바른먹거리는 무엇일까요?</li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="icon">
+                  <ul>
+                    <li>로하스</li>
+                    <li>여러분도 로하스 식생활을 시작해 보세요</li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="icon">
+                  <ul>
+                    <li>바른 먹거리 캠페인</li>
+                    <li>어렸을 때 입맛이 평생건강을 책임집니다</li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- //right_food_inner -->
+      </section>
+    </div>
+    <!-- //content2; 바른먹거리 -->
+    <!-- content3;사회책임경영 -->
+    <div class="section content3">
+      <section class="csr">
+        <div class="csr_inner">
+          <h2>사회책임경영</h2>
+          <p>‘이웃사랑’과 ‘생명존중’ 정신을 바탕으로 로하스 생활(LOHAS Living)을 구현해나갑니다.</p>
+          <ul class="csr_blur">
+            <li>
+              <a href="#">
+                <dl>
+                  <dt>LOHAS 전략</dt>
+                  <dd>LOHAS Strategy</dd>
+                </dl>
+              </a>    
+            </li>
+            <li>
+              <a href="#">
+                <dl>
+                  <dt>가치창출Process</dt>
+                  <dd>Value Creation Process</dd>
+                </dl>
+              </a>    
+            </li>
+            <li>
+              <a href="#">
+                <dl>
+                  <dt>수상내역</dt>
+                  <dd>Awards at a Glance</dd>
+                </dl>
+              </a>    
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <!-- //content3;사회책임경영 -->
+    <!-- content4;뉴스룸-->
+    <div class="section content4">
+      <section class="news_room">
+        <!-- news_room_inner -->
+        <div class="news_room_inner">
+          <div>
+            <h2>뉴스룸</h2>
+            <p>풀무원의 다양한 소식과 생생한 뉴스를 매일 만나실 수 있습니다.</p>
+          </div>
+          <ul><!-- 뉴스룸 content -->
+            <li><!-- 뉴스룸 1행 1번 - 순쌀도나스 -->
+              <dl><a href="#">
+                  <dt><img src="./img/news01.jpg" alt="순쌀도나스" /></dt>
+                  <dd>풀무원, 구간 쌀로 만든 겉바속쫀<br />'순쌀도나스' 출시 ··· 건강지향 K-간식 확대</dd>
+                  </a>
+              </dl>
+            </li>
+            <li><!-- 뉴스룸 1행 2번 - 올가홀푸드 -->
+              <dl><a href="#">
+                  <dt><img src="./img/news02.jpg" alt="올가홀푸드" /></dt>
+                  <dd>풀무원 올가홀푸드, '창립 42주년 기념 <br />앵콜 프로모션' 진행</dd>
+                  </a>
+              </dl>
+            </li>
+            <li><!-- 뉴스룸 1행 3번 - 플랜튜드 -->
+              <dl><a href="#">
+                  <dt><img src="./img/news03.jpg" alt="플랜튜드" /></dt>
+                  <dd>풀무원푸드앤컬처, 비건 레스토랑<br />‘플랜튜드’ 1호점 오픈 1년 만에 메뉴···</dd>
+                  </a>
+              </dl>
+            </li>
+            <li><!-- 뉴스룸 2행 1번 - 생면밀키트 -->
+                  <dl><a href="#">
+                    <dt><img src="./img/news04.jpg" alt="생면밀키트" /></dt>
+                  <dd>풀무원, 혁신 거듭한 생면사업 연 매출<br />1천억 돌파···첫 밀키트 출시로 여름면 시장···</dd>
+                  </a>
+              </dl>
+            </li>
+            <li><!-- 뉴스룸 2행 2번 - 프리미엄생면 -->
+              <dl><a href="#">
+                  <dt><img src="./img/news05.jpg" alt="프리미엄생면" /></dt>
+                  <dd>풀무원, 美 프리미엄 생면 초고속 성장세…<br />연내 현지 생산 인프라 확충하고 판매영역...</dd>
+                  </a>
+              </dl>
+            </li>
+            <li><!-- 뉴스룸 2행 3번 - 두유푸딩 -->
+              <dl><a href="#">
+                  <dt><img src="./img/news06.jpg" alt="두유푸딩" /></dt>
+                  <dd>풀무원, 대만식 두유 푸딩 ‘두화(豆花)’<br />출시···소재·간편식 넘어 디저트···</dd>
+                  </a>
+              </dl>
+            </li>
+          </ul>
+        </div>
+        <!-- //news_room_inner -->
+      </section>
+    </div>
+    <!-- //content4;뉴스룸-->
+    <!-- content5;about_us -->
+    <div class="section content5">
+      <section class="about_us">
+        <div class="about_us_txt">
+          <div>
+            <h2>풀무원</h2>
+            <p>풀무원 정신은 스스로 일군 풀무원농장에서 유기농을 통해 이웃사랑, 생명존중을 실천하는 데 한평생을 바쳤던 위대한 농부이자 성실한 평화주의자 원경선으로부터 시작합니다.</p>
+          </div>
+        </div>
+        <div class="about_us_img">
+          <ul>
+            <li><!-- 가치체계 -->
+              <a href="#">
+                <dl>
+                  <dt>가치체계</dt>
+                  <dd>로하스 기업 풀무원의<br />미션을 소개합니다.</dd>
+                </dl>
+                <span></span>
+              </a>
+            </li>
+            <li><!-- 히스토리 -->
+              <a href="#">
+                <dl>
+                  <dt>히스토리</dt>
+                  <dd>사람과 자연을 함께<br />사랑해온 풀무원의 시간.</dd>
+                </dl>
+                <span></span>
+              </a>
+            </li>
+            <li><!-- 사회책임경영 -->
+              <a href="#">
+                  <dl>
+                    <dt>사회책임경영</dt>
+                    <dd>지속가능한 사회와<br />지구환경을 위한 경영활동.</dd>
+                  </dl>
+                  <span></span>
+              </a>
+            </li>
+            <li><!-- 풀무원 사업 -->
+              <a href="#">
+                  <dl>
+                    <dt>풀무원 사업</dt>
+                    <dd>고객과 함께 만든<br />풀무원의 사업들.</dd>
+                  </dl>
+                  <span></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- //about_us_img -->
+      </section>
+    </div>
+    <!-- //content5;aboutus -->
+    <!-- footer -->
+    <div class="section content6">
+      <section class="footer">
+        <!-- footer_inner -->
+        <div class="footer_inner">
+          <div class="footer_logo"></div>
+          <ul>
+            <li><a href="#"><span>개인정보처리방침</span></a></li>
+            <li><a href="#">이메일주소 무단수집 거부</a></li>
+            <li><a href="#">사이버감사실</a></li>
+            <li><a href="#">공장견학</a></li>
+            <li><a href="#">풀무원채용</a></li>
+          </ul>
+
+          <address>
+            <span>법인명 : (주)풀무원</span>
+            <span>서울시 강남구 광평로 280 로즈데일빌딩</span>
+            <span>대표전화 : 080-022-0085</span>
+          </address>
+
+          <p>Copyright ⓒ Pulmuone Corporate All Rights Reserved.</p>
+          <div class="sns_box">
+            <ul>
+              <li class="f_txt">공식계정</li>
+              <li><a href="#" target="_blank" title="새 창으로 바로가기">페이스북 바로가기</a></li>
+              <li><a href="#" target="_blank" title="새 창으로 바로가기">티스토리 블로그 바로가기</a></li>
+              <li><a href="#" target="_blank" title="새 창으로 바로가기">트위터 바로가기</a></li>
+              <li><a href="#" target="_blank" title="새 창으로 바로가기">유튜브 바로가기</a></li>
+              <li><a href="#" target="_blank" title="새 창으로 바로가기">인스타그램 바로가기</a></li>
+              <li><a href="#" target="_blank" title="새 창으로 바로가기">네이버포스트 바로가기</a></li>
+            </ul>
+          </div>
+          <div class="family_box">
+            <a href="#" title="풀무원 계열사/브랜드 바로가기">계열사/브랜드사이트</a>
+            <ul>
+              <li>풀무원
+                <ul>
+                  <li><a href="#">뮤지엄김치간</a></li>
+                  <li><a href="#">#풀무원</a></li>
+                  <li><a href="#">풀무원채용</a></li>
+                  <li><a href="#">efresh 모니터</a></li>
+                  <li><a href="#">풀무원재단</a></li>
+                </ul>
+              </li>
+              <li>계열사
+                <ul>
+                  <li><a href="#">풀무원녹즙</a></li>
+                  <li><a href="#">풀무원푸드머스</a></li>
+                  <li><a href="#">풀무원푸드앤컬처</a></li>
+                  <li><a href="#">풀무원샘물</a></li>
+                  <li><a href="#">Pulmuone Foods USA</a></li>
+                  <li><a href="#">풀무원건강생활</a></li>
+                  <li><a href="#">아사히코</a></li>
+                  <li><a href="#">푸메이뚜어</a></li>
+                </ul>
+              </li>
+              <li>브랜드
+                <ul>
+                  <li><a href="#">풀무원아미오</a></li>
+                  <li><a href="#">디자인밀</a></li>
+                  <li><a href="#">풀무원로하스</a></li>
+                  <li><a href="#">Montereygourmetfoods</a></li>
+                  <li><a href="#">WILDWOOD</a></li>
+                  <li><a href="#">Nasoya Foods USA</a></li>
+                  <li><a href="#">출출박스</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- //family_box -->
+        </div>
+        <!-- //footer_inner -->
+        <a class="btn_top">TOP</a>
+      </section>  
+    </div>
+    <!-- //footer -->
+  </main>
+  <!-- //container -->
+  <!-- quick -->
+  <aside>
+    <ul id="quick" class="quick">
+      <!-- li에 before after로 설명하기 -->
+      <li><span></span><a href="#">바른먹거리</a></li>
+      <li><span></span><a href="#">사회책임경영</a></li>
+      <li><span></span><a href="#">뉴스룸</a></li>
+      <li><span></span><a href="#">풀무원</a></li>
+    </ul>
+  </aside>
+  <!-- //quick -->
+</div>
+<!-- //wrap -->
+</body>
+</html> 
